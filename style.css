@@ -1,0 +1,72 @@
+body {
+  font-family: 'Droid Serif';
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  text-align: center;
+  color:  #2C4B60;
+}
+
+.white-text {
+  color: white;
+}
+
+.remark-slide-number {
+  opacity: 0.75; /* default: 0.5 */
+}
+
+div.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+div.footer.bottombox {
+  opacity: 0.8;
+  text-align: center;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.bottombox h1, h2, h3 {
+  color: white;
+}
+
+blockquote {
+  border-left: 0.3em solid rgba(0,0,0,0.5);
+  padding: 0 15px;
+  font-style: italic;
+}
+
+div.footnote {
+  position: absolute;
+  bottom: 1.5em;
+  left: 4.0em;
+}
+
+.divider {
+  vertical-align: middle;
+}
+.divider .remark-slide-number {
+   color: white;
+}
+.divider h1, h2, h3 {
+  text-align: center;
+  color: white;
+}
+
+.sub-divider {
+  background-color: #70AD47;
+  vertical-align: middle;
+}
+.sub-divider .remark-slide-number {
+   color: white;
+}
+.sub-divider h1, h2, h3 {
+  text-align: center;
+  color: white;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
