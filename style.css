@@ -2,6 +2,15 @@ body {
   font-family: 'Droid Serif';
 }
 
+table {
+  width: 100%;
+  font-family: 'Droid Serif';
+}
+
+table td {
+  text-align: center;
+}
+
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
